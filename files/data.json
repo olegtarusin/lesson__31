@@ -1,0 +1,109 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "group": "Clothes",
+            "image": "img/item/01.jpg",
+            "name": "Multicolored armless top",
+            "prise": "10000"
+        },
+        {
+            "id": 2,
+            "group": "Accessories",
+            "image": "img/item/02.jpg",
+            "name": "Grey bee wrist-watch",
+            "prise": "10000"
+        },
+        {
+            "id": 3,
+            "group": "Clothes",
+            "image": "img/item/03.jpg",
+            "name": "Red lightweight gown",
+            "prise": "10000"
+        },
+        {
+            "id": 4,
+            "group": "Clothes",
+            "image": "img/item/04.jpg",
+            "name": "Blue botton-down gown",
+            "prise": "10000"
+        },
+        {
+            "id": 5,
+            "group": "Accessories",
+            "image": "img/item/05.jpg",
+            "name": "Moon and star neckpiece",
+            "prise": "10000"
+        },
+        {
+            "id": 6,
+            "group": "Accessories",
+            "image": "img/item/06.jpg",
+            "name": "Tambourine Crossbody Bag",
+            "prise": "10000"
+        },
+        {
+            "id": 7,
+            "group": "Accessories",
+            "image": "img/item/07.jpg",
+            "name": "Katy Perry Killer Queen EDP",
+            "prise": "10000"
+        },
+        {
+            "id": 8,
+            "group": "Shoes",
+            "image": "img/item/08.jpg",
+            "name": "High heels ladies shoes",
+            "prise": "10000"
+        },
+        {
+            "id": 9,
+            "group": "Accessories",
+            "image": "img/item/09.jpg",
+            "name": "Nerdy oval glasses",
+            "prise": "10000"
+        },
+        {
+            "id": 10,
+            "group": "Accessories",
+            "image": "img/item/10.jpg",
+            "name": "Diamond ladies ring",
+            "prise": "10000"
+        },
+        {
+            "id": 11,
+            "group": "Clothes",
+            "image": "img/item/11.jpg",
+            "name": "Ladies bush pants",
+            "prise": "10000"
+        },
+        {
+            "id": 12,
+            "group": "Clothes",
+            "image": "img/item/12.jpg",
+            "name": "Ladies bush pants",
+            "prise": "10000"
+        },
+        {
+            "id": 13,
+            "group": "Shoes",
+            "image": "img/item/13.jpg",
+            "name": "Guilhermina Embellished Slides",
+            "prise": "10000"
+        },
+        {
+            "id": 14,
+            "group": "Shoes",
+            "image": "img/item/14.jpg",
+            "name": "Superga Plaid Sneakers",
+            "prise": "10000"
+        },
+        {
+            "id": 15,
+            "group": "Clothes",
+            "image": "img/item/15.jpg",
+            "name": "Checked ladies trouser",
+            "prise": "10000"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230923145400">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+						</ul>
+					</nav>
+					<div class="menu__logo">
+						<img src="img/logo.svg" alt="logo">
+					</div>
+					<div class="menu__action">
+						<form action="#" method="GET" enctype="multipart/form-data" class="menu__form">
+							<input type="text" name="search" placeholder="Search.." autocomplete="on" class="menu__input">
+							<button class="menu__button icon--search" type="submit"></button>
+						</form>
+						<a href="#" class="menu__button icon--person"></a>
+						<a href="#" class="menu__button icon--bag" data-popup="#ouritems"><span></span></a>
+						<a href="#" class="menu__button icon--like"></a>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="article">
+				<div class="article__boxtitle">
+					<h2 class="article__title">Shop your style</h2>
+				</div>
+				<div class="article__container">
+					<p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae gravida cursus
+						adipiscing
+						viverra at tortor, egestas odio parturient. Morbi ut lorem in erat. Et et molestie diam diam ultricies.
+						Scelerisque duis diam ac cras dictum adipiscing. Venenatis at sit proin ut vitae adipiscing id facilisis.
+					</p>
+				</div>
+			</section>
+			<div class="bord">
+				<div class="bord__container">
+					<div class="bord__body">
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="ouritems" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<h2 class="popup__title">
+					Shopping Cart (<span></span> item)
+				</h2>
+				<div class="popup__bord popbord">
+					<ul class="popbord__legend">
+						<li class="popbord__text-legend">ITEM DESCRIPTION</li>
+						<li class="popbord__text-legend">QUANTITY</li>
+						<li class="popbord__text-legend">UNIT PRICE</li>
+						<li class="popbord__text-legend">SUB TOTAL</li>
+					</ul>
+					<div class="popbord__item solditem">
+						<div class="solditem__card">
+							<div class="solditem__image-ibg">
+								<picture><source srcset="img/item/01.webp" type="image/webp"><img src="img/item/01.jpg" alt="item"></picture>
+							</div>
+							<div class="solditem__info">
+								<h3 class="solditem__name">Multicolored armless top</h3>
+								<button type="button" class="solditem__remove">remove</button>
+							</div>
+						</div>
+						<div class="solditem__cell">
+							<form data-quantity class="quantity" method="GET" enctype="multipart/form-data" action="#" name="quantform">
+								<button data-quantity-minus type="button" class="quantity__button quantity--minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="quantinput" value="1">
+								</div>
+								<button data-quantity-plus type="button" class="quantity__button quantity--plus"></button>
+							</form>
+						</div>
+						<div class="solditem__cell">
+							<div class="solditem__prise startprise"><span>₦</span>10000</div>
+						</div>
+						<div class="solditem__cell">
+							<div class="solditem__prise subprise"><span>₦</span>20000</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup__totalblock total">
+					<div class="total__subblock">
+						<h3 class="total__title">TOTAL:</h3>
+						<div class="total__prise"> <span>₦</span>20000</div>
+					</div>
+					<div class="total__subinfo">Delivery fee not included yet</div>
+				</div>
+				<div class="popup__actions">
+					<button data-close type="button" class="popup__button popup__close">CONTINUE SHOPPING</button>
+					<a href="#" data-close class="popup__button">PROCEED TO CHECKOUT</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230923145400"></script>
+</body>
+
+</html>
